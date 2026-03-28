@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "O:\\Unity Project\\CSharpMainProject_1new\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E670A0EB-D613-5AF9-4585-138686B8CE48}|Root.csproj|O:\\Unity Project\\CSharpMainProject_1new\\assets\\scripts\\unitbrains\\player\\secondunitbrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E670A0EB-D613-5AF9-4585-138686B8CE48}|Root.csproj|o:\\unity project\\csharpmainproject_1new\\assets\\scripts\\unitbrains\\player\\secondunitbrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E670A0EB-D613-5AF9-4585-138686B8CE48}|Root.csproj|solutionrelative:assets\\scripts\\unitbrains\\player\\secondunitbrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E670A0EB-D613-5AF9-4585-138686B8CE48}|Root.csproj|o:\\unity project\\csharpmainproject_1new\\assets\\scripts\\enterpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E670A0EB-D613-5AF9-4585-138686B8CE48}|Root.csproj|O:\\Unity Project\\CSharpMainProject_1new\\assets\\scripts\\enterpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E670A0EB-D613-5AF9-4585-138686B8CE48}|Root.csproj|solutionrelative:assets\\scripts\\enterpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,8 +34,7 @@
               "RelativeToolTip": "Assets\\Scripts\\EnterPoint.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T18:56:27.623Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-28T18:56:27.623Z"
             },
             {
               "$type": "Document",
@@ -45,7 +44,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\UnitBrains\\Player\\SecondUnitBrain.cs",
               "ToolTip": "O:\\Unity Project\\CSharpMainProject_1new\\Assets\\Scripts\\UnitBrains\\Player\\SecondUnitBrain.cs",
               "RelativeToolTip": "Assets\\Scripts\\UnitBrains\\Player\\SecondUnitBrain.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAcwBcAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAA9wC8AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-23T12:05:23.968Z",
               "EditorCaption": ""
