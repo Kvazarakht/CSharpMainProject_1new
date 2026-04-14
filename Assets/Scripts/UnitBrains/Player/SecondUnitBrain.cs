@@ -1,7 +1,10 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using Model;
 using Model.Runtime.Projectiles;
+using System.Collections.Generic;
+using System.Linq;
+
 using UnityEngine;
+using Utilities;
 
 namespace UnitBrains.Player
 {
@@ -13,7 +16,7 @@ namespace UnitBrains.Player
         private float _temperature = 0f;
         private float _cooldownTime = 0f;
         private bool _overheated;
-        
+
         protected override void GenerateProjectiles(Vector2Int forTarget, List<BaseProjectile> intoList)
         {
             float overheatTemperature = OverheatTemperature;
@@ -40,17 +43,27 @@ namespace UnitBrains.Player
         public override Vector2Int GetNextStep()
         {
             return base.GetNextStep();
+
+            //Vector2Int position = Vector2Int.zero;
+            //Vector2Int nexPosition = Vector2Int.right;
+            //return position.CalcNextStepTowards(nexPosition);
+
         }
+
+
+
 
         protected override List<Vector2Int> SelectTargets()
         {
+
             ///////////////////////////////////////
             // Homework 1.4 (1st block, 4rd module)
-            ///////////////////////////////////////
+            /////////////////////////////////////
+            //List<Vector2Int> result = (List<Vector2Int>)GetAllTargets();
             List<Vector2Int> result = GetReachableTargets();
-            
             float distance = float.MaxValue;
-            
+
+
             if (result.Any())
             {
                 Vector2Int dis = new Vector2Int();
@@ -63,11 +76,17 @@ namespace UnitBrains.Player
                         dis = item;
                     }
                 }
+                if (result.Contains(dis))
+                {
+
+                }
                 result.Clear();
                 result.Add(dis);
-            }                        
-
+            }
             return result;
+
+
+
             ///////////////////////////////////////
         }
 
